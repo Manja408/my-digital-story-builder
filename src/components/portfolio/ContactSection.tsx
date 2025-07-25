@@ -7,8 +7,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "manjunathvenkatesh478@gmail.com",
-      href: "mailto:manjunathvenkatesh478@gmail.com",
+      value: "manjunatha.blr22@gmail.com",
+      href: "mailto:manjunatha.blr22@gmail.com",
       description: "Drop me a line anytime"
     },
     {
@@ -126,7 +126,7 @@ const ContactSection = () => {
                 <Button 
                   size="lg"
                   className="shadow-medium hover:shadow-glow transition-smooth"
-                  onClick={() => window.location.href = 'mailto:manjunathvenkatesh478@gmail.com'}
+                  onClick={() => window.location.href = 'mailto:manjunatha.blr22@gmail.com'}
                 >
                   <MessageCircle size={16} className="mr-2" />
                   Start a Conversation
