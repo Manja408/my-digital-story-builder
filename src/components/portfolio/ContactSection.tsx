@@ -81,7 +81,7 @@ const ContactSection = () => {
                     <label className="block text-sm font-medium mb-2">Name</label>
                     <input 
                       type="text" 
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-smooth bg-background"
+                      className="w-full px-4 py-3 input-dark rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-smooth"
                       placeholder="Your name"
                     />
                   </div>
@@ -89,7 +89,7 @@ const ContactSection = () => {
                     <label className="block text-sm font-medium mb-2">Email</label>
                     <input 
                       type="email" 
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-smooth bg-background"
+                      className="w-full px-4 py-3 input-dark rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-smooth"
                       placeholder="your.email@example.com"
                     />
                   </div>
@@ -97,7 +97,7 @@ const ContactSection = () => {
                     <label className="block text-sm font-medium mb-2">Message</label>
                     <textarea 
                       rows={4}
-                      className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-smooth bg-background resize-none"
+                      className="w-full px-4 py-3 input-dark rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent transition-smooth resize-none"
                       placeholder="Let's discuss your project..."
                     ></textarea>
                   </div>
